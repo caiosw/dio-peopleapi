@@ -25,7 +25,7 @@ public class Person {
   private String lastName;
 
   @Column(nullable = false, unique = true)
-  private String document;
+  private String cpf;
 
   private LocalDate birthDate;
 
