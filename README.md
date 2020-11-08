@@ -1,6 +1,6 @@
 <h2>Digital Innovation One - person api project for Java Developer Bootcamp</h2>
 
-The project consists of a company API for crud operations on the Person entity, the project uses the following technologies:
+The project consists of a company REST API for crud operations on the Person entity, the project uses the following technologies:
 
 * Maven
 * Spring Boot
@@ -9,7 +9,7 @@ The project consists of a company API for crud operations on the Person entity, 
 * Hibernate
 * Mapstruct
 
-The project is available in 
+The project is available online in https://caiosw-peopleapi-live.herokuapp.com/api/v1/people
 
 
 To execute the project on the terminal, just type:
