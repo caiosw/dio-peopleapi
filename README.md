@@ -29,7 +29,7 @@ To add a new person:
 ```
 POST http://localhost:8080/api/v1/people
 
-Body:
+Body*:
 {
     "firstName": "John",
     "lastName": "Do",
@@ -52,7 +52,7 @@ DELETE http://localhost:8080/api/v1/people/{id}
 To update a person:
 ```
 PUT http://localhost:8080/api/v1/people/{id}
-Body:
+Body*:
 {
     "id": 1,
     "firstName": "John",
@@ -78,3 +78,5 @@ Get all people:
 ```
 GET http://localhost:8080/api/v1/people/
 ```
+
+\* => cpf field must be a valid cpf
